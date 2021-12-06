@@ -1,0 +1,31 @@
+.titulo-form{
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contenedor-form{
+    background-color: #fff;
+    width: 75%;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    border-radius: 10px;
+    .formulario{
+        margin-top: 4rem;
+    }
+    label, input{
+        font-size: 1.7rem;
+    }
+    label{
+        color: rgb(68, 65, 65);
+    }
+    .campo{
+        display: block;
+        width: 100%;
+        margin: 1rem 0;
+        border: none;
+        background-color: rgba(235, 233, 233, 0.856);
+        border-radius: 6px;
+        padding: 0.5rem 2rem;
+    }
+}

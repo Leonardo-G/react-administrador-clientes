@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Login } from '../auth/Login';
+import { Login } from '../components/auth/Login';
 import { Layout } from '../pages/cliente/Layout';
 import { LoginForm } from '../components/LoginForm';
 import { EditarCliente } from '../pages/EditarCliente';
 import { Inicio } from '../pages/Inicio';
-import { NuevoCliente } from '../pages/NuevoCliente';
+import { NuevoCliente } from '../pages/nuevo-cliente/NuevoCliente';
 
 export const AppRouter = () => {
     return (
