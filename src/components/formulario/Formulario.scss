@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .titulo-form{
     color: grey;
     font-size: 2rem;
@@ -13,19 +15,35 @@
     .formulario{
         margin-top: 4rem;
     }
-    label, input{
+    label, input, textarea{
         font-size: 1.7rem;
     }
     label{
-        color: rgb(68, 65, 65);
+        color: rgb(107, 107, 107);
     }
     .campo{
+        margin-top: 2.5rem;
+    }
+    .input{
         display: block;
         width: 100%;
         margin: 1rem 0;
         border: none;
-        background-color: rgba(235, 233, 233, 0.856);
+        background-color: rgba(243, 240, 240, 0.856);
         border-radius: 6px;
         padding: 0.5rem 2rem;
+    }
+    .textarea{
+        height: 10rem;
+    }
+    .btn--form{
+        display: block;
+        width: 100%;
+        background-color: $primario;
+        border: none;
+        padding: 1rem;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
     }
 }

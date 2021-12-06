@@ -10,7 +10,6 @@ export const Layout = () => {
     return (
         <div className="grid">
             <div className="grid__aside">
-                <div className="aside--fixed"></div>
                 <h2 className="aside--titulo">CRM - Clientes</h2>
                 <nav className="navegacion">
                     <Link 

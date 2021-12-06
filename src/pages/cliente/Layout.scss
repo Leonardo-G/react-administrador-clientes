@@ -4,13 +4,12 @@
     display: grid;
     grid-template-columns: 35rem 1fr;
     .grid__aside{
-        position: relative;
         background-color: $primario;
-        height: 100vh;
         padding: 2rem;
-    }
-    .aside--fixed{
-        position: fixed;
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 100vh;
     }
     .aside--titulo{
         font-size: 3rem;
@@ -28,6 +27,7 @@
     }
     .grid__tarea{
         padding: 2rem;
+        height: 100%;
         background-color: rgba(133, 130, 130, 0.13);
     }
 }
