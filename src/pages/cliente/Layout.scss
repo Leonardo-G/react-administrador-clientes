@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.grid{
+    display: grid;
+    grid-template-columns: 35rem 1fr;
+    .grid__aside{
+        position: relative;
+        background-color: $primario;
+        height: 100vh;
+        .aside--fixed{
+            position: fixed;
+        }
+    }
+}
